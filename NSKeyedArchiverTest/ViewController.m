@@ -49,6 +49,10 @@
     
 }
 
+
+
+
+
 -(void)save{
     NSLog(@"save");
     [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"%@",PERSONAL_FILE_PATHNAME]];
